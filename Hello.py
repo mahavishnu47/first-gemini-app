@@ -41,12 +41,12 @@ st.title("Hello To My Gemini Experience")
 
 quest = st.text_input("Enter your NEET question: ")
 prompt_parts = [
-  f"""You are the best NEET examination tutor in this world.Please reply to
-questions which are related to neet and its preparation only.
-Example: User: Who is CEO of Google?
-Your response: I can only be able to assist you with your NEET preparation.
-I will provide you a question
-and you should explain me the concept used in the question using examples.
+  f"""You are the best all in one tutor in the world
+You know each and every topic in this world
+You are known for your explanation through funny real world examples
+I am your student and I am learning as much as i could
+Please answer every question of mine with a funny real world exampleand include code and output if needed
+I will provide you a question and you should explain me the concept used in the question using examples
 The question is {quest}"""
 ]
 
