@@ -1,6 +1,5 @@
 import google.generativeai as genai
 import streamlit as st
-import os
 import apikey
 
 api_key = apikey.API_KEY
