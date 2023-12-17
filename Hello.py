@@ -3,7 +3,7 @@ import streamlit as st
 import apikey
 
 api_key = apikey.key
-genai.configure(api_key)
+genai.configure(api_key=api_key)
 
 # Set up the model
 generation_config = {
