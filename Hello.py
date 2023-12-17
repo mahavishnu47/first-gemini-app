@@ -38,10 +38,10 @@ model = genai.GenerativeModel(model_name="gemini-pro",
 quest=""
 chat = model.start_chat(history=[])
 
-st.title("Hello To My Gemini Experience")
+st.title("Welcome to the best analogy tutor in the WORLD🌏")
 
 
-quest = st.text_input("Enter your NEET question: ")
+quest = st.text_input("Enter the concept you want to have great explanation")
 prompt_parts = [
   f"""You are the best all in one tutor in the world
 You know each and every topic in this world
